@@ -42,14 +42,12 @@ end
 gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 group :development do
-	gem 'rspec-rails', '2.0.1'
+	gem 'rspec-rails'
+  gem 'sqlite3'
 	end
 group :test do
-	gem 'rspec', '2.0.1'
-	gem 'webrat', '0.7.1'
-end
-
-group :development, :test do
+	gem 'rspec'
+	gem 'webrat'
   gem 'sqlite3'
 end
 
